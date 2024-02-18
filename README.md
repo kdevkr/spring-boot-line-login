@@ -1,10 +1,15 @@
-# Spring Boot 2.7.18
+# Line Login OAuth v2.1 Sample
 
-## How to settings with Intellij IDEA
-1. Settings → Editor → Code Style → Enable editorconfig support
-2. Import Scheme → Checkstyle configuration → checkstyle.xml in project folder
-3. Install CheckStyle Plugin → Add checkstyle.xml and activate
+## Dependencies
+- Spring Boot 2.7.18
+- Line Bot 5.0.3
 
-## Why do you need this repository?
-You can no longer create a Spring Boot 2 project through [Spring Initializr](https://start.spring.io/). If you know how to use a docker, you can use the [Spring Initializr docker image](https://hub.docker.com/r/kdevkr/spring-initializr) I shared.
+## Links
 
+- [LINE Login v2.1 API reference](https://developers.line.biz/en/reference/line-login/)
+- [Setting a callback URL](https://developers.line.biz/en/docs/line-login/integrate-line-login/#setting-callback-url)
+- [Requesting permission to access the user's email address](https://developers.line.biz/en/docs/line-login/integrate-line-login/#applying-for-email-permission)
+- [Getting an access token with a web app](https://developers.line.biz/en/docs/line-login/integrate-line-login/#get-access-token)
+- [Get profile information from ID tokens](https://developers.line.biz/en/docs/line-login/verify-id-token/)
+- [Add a LINE Official Account as a friend when logged in (add friend option)](https://developers.line.biz/en/docs/line-login/link-a-bot)
+- [LINE Login button design guidelines](https://developers.line.biz/en/docs/line-login/login-button/)

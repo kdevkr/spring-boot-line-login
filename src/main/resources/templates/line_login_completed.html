@@ -1,0 +1,9 @@
+<p>Hello, <span th:text="${name}"></span></p>
+
+<p>Your email is <span th:text="${email}"></span></p>
+<p>
+  <span th:if="${isFriendship}">Friendship</span>
+  <span th:if="${!isFriendship}">Not friendship</span>
+</p>
+
+<a href="/">Back</a>

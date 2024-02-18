@@ -1,9 +1,11 @@
 spring.main.banner-mode: off
-spring.application.name: springboot
+spring.application.name: line-login
 
-spring.security:
-  user:
-    name: user
-    password: user
-
-springdoc.swagger-ui.path: /swagger-ui.html
+line:
+  oauth:
+    callback-url:
+    channel-id:
+    channel-secret:
+  bot:
+    channel-token:
+    channel-secret:
